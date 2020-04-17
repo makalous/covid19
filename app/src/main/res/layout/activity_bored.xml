@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BoredActivity">
+    <Button
+        android:id="@+id/video"
+        android:text="Funny Video"
+    android:layout_width="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/custom_button"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"></Button>
+    <Button
+        android:id="@+id/receipt"
+        android:text="Try New Receipt"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/custom_button"
+        android:layout_below="@+id/video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"></Button>
+    <Button
+        android:id="@+id/science"
+        android:text="Science"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/custom_button"
+        android:layout_below="@+id/receipt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"></Button>
+    <Button
+        android:id="@+id/techno"
+        android:text="Technology"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/custom_button"
+        android:layout_below="@+id/science"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"></Button>
+
+</RelativeLayout>
